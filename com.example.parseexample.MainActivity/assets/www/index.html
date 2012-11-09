@@ -2,18 +2,11 @@
 <html lang="en">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script src="js/jquery-1.8.2.min.js"></script>
 <script src="js/parse-1.1.2.min.js"></script>
 <script src="js/main.js"></script>
 <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
-
-<!-- map specific -->
-<link rel="stylesheet" href="js/leaflet/leaflet.css" />
-<script src="js/leaflet/leaflet.js"></script>
-<style>
-#map { height: 250px; }
-</style>
 </head>
 
 <body>
@@ -27,15 +20,15 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 				</a>
-
+ 
 				<!-- Be sure to leave the brand out there if you want it shown -->
 				<a class="brand" href="#">CowTipLine</a>
 
 				<div class="nav-collapse">
 					<ul class="nav">
-						<li><a href="index.html">Home</a></li>
+						<li class="active"><a href="index.html">Home</a></li>
 						<li><a href="add.html">Add Tip</a></li>
-						<li class="active"><a href="get.html">Get Tips</a></li>
+						<li><a href="get.html">Get Tips</a></li>
 					</ul>
 				</div>
 
@@ -45,10 +38,13 @@
 
 	<div class="container">
 
-		<h1>Current Tips</h1>
-		
-		<div id="tipdisplay"></div>
-		<div id="map"></div>
+		<img src="images/ctl.png" title="CowTipLine">
+		<p>
+			Tipping Cows? Need to find a cow? Jonathan and Cora will hook you up!
+		</p>
+
+		<a href="add.html" class="btn btn-block">Add Tip</a>
+		<a href="get.html" class="btn btn-block">Get Tips</a>
 
 	</div>
 

@@ -1,6 +1,7 @@
 Parse.initialize("zOo3i7EACHMZfYwernLCmbFUaMVX3TDIM2jVufli", "Ps7QM4Ylhtz7Ex3JWGVw83gD0WSJt5CuiUNGIB6A");
 TipObject = Parse.Object.extend("TipObject");
 
+
 var currentLocation;
 
 $(document).ready(function() {
@@ -18,7 +19,8 @@ $(document).ready(function() {
 		});
 
     }
-    $("#addtipForm").onclick("submit", function(e) {
+
+    $("#addtipForm").on("submit", function(e) {
 		e.preventDefault();
 
 		//get values
