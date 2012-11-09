@@ -18,7 +18,6 @@ $(document).ready(function() {
 		});
 
     }
-
     $("#addtipForm").on("submit", function(e) {
 		e.preventDefault();
 
