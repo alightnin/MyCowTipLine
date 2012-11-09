@@ -18,7 +18,7 @@ $(document).ready(function() {
 		});
 
     }
-    $("#addtipForm").on("submit", function(e) {
+    $("#addtipForm").onclick("submit", function(e) {
 		e.preventDefault();
 
 		//get values
